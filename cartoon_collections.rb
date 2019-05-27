@@ -13,6 +13,9 @@ def summon_captain_planet(planeteer_calls)# code an argument here
 end
 summon_captain_planet(planeteer_calls)
 
+
+planeteer_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
+
 def long_planeteer_calls(planeteer_calls)
   planeteer_calls.any? { |call| call.length > 4 }
 end
